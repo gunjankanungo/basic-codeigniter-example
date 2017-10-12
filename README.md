@@ -1,5 +1,5 @@
 # basic-codeigniter-example
-Codeigniter Image Example
+Codeigniter Login/Logout and REST Api Example
 
 Postman
 GET :- http://localhost/basic-codeigniter-example/RestGetController/contacts
