@@ -38,4 +38,9 @@ class ContactModel extends CI_Model {
         $this->db->update($this->contact, $data);
     }
 
+    function delete_contact($contact_id) {
+        $this->db->where('contact_id', $contact_id);
+        $this->db->delete($this->contact);
+    }
+
 }
